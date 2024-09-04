@@ -1,0 +1,371 @@
+/* Body */
+body {
+    background-color: rgba(216, 191, 216, 0.7);
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-shadow: 0 0 200px 20px rgba(0, 0, 0, 100);
+}
+
+.specific-page {
+    background-color: rgba(216, 191, 216, 0.7);
+}
+
+.borderpage {
+    border: 4px solid #0B111F;
+    border-radius: 30px;
+}
+
+.description {
+    font-style: italic;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+/* Background */
+html {
+    background-image: url('/home/sejjy/Code/cybersmile-coffee/images/lofi-night-edit.jpg');
+    background-size: auto 114%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    background-color: rgba(181, 119, 133, 0.6);
+    border: 4px solid #0B111F;
+    border-radius: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+
+nav ul li {
+    display: inline;
+    border-right: 2px solid #0B111F;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #202020;
+}
+
+nav li.selected {
+    color: #0B111F;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+nav li.locked {
+    color: #202020;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+section p a {
+    color: blue;
+}
+
+section p a:hover {
+    color: navy;
+}
+
+section p a:visited {
+    color: purple;
+}
+
+/* Title Bar */
+h1.intro {
+    background-color: rgba(240, 245, 249, 0.7);
+    padding: 16px;
+    margin: 0;
+    border: 4px solid #0B111F;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 8px;
+    font-weight: bold;
+    background-image: repeating-linear-gradient(70deg, 
+        rgba(138, 182, 214, 0.7) 0px, 
+        rgba(138, 182, 214, 0.7) 3px,
+        transparent 0px, 
+        transparent 8px
+    );
+    margin-left: -28px;
+    margin-right: -28px;
+}
+
+.intro .smaller {
+    font-family: sans-serif;
+    font-size: 80%; 
+}
+
+.smaller {
+    font-family: sans-serif;
+    font-size: 80%;
+}
+
+.nextro {
+    background-color: rgba(240, 245, 249, 0.7);
+    padding: 16px;
+    margin: 0;
+    border: 4px solid #0B111F;
+    border-left: none;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 8px;
+    font-weight: bold;
+    background-image: repeating-linear-gradient(70deg, 
+        rgba(138, 182, 214, 0.7) 0px, 
+        rgba(138, 182, 214, 0.7) 3px,
+        transparent 0px, 
+        transparent 8px
+    );
+    margin-left: -26px;
+    margin-right: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 48px;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 2px solid black;
+    line-height: 1.5;
+}
+
+.wenny-and-sejjy {
+    text-align: center;
+}
+
+/* Table */
+table {
+    font-size: 80%;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FCAB68;
+}
+
+td {
+    background-color: #BA99C0;
+}
+
+.indented {
+    padding-left: 0px;
+}
+
+.dinosaur-image {
+    width: 175px;
+    height: auto;
+}
+
+/* Technical stuff: set sizing to border box method */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img.small {
+    float: left;
+    height: 200px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+img.medium {
+    max-width: 360px;
+    width: 100%;
+    margin-left: 2px;
+}
+
+img.large {
+    width: 100%;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 24px;
+    min-height: 300px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+header p {
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+header h1 {
+    font-size: 16px;
+    text-align: right;
+}
+
+header nav ul button {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid black;
+}
+
+footer p.copyright {
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer p.contact {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+body, section, img {
+    font-family: sans-serif;
+    font-size: 17px;
+    border: 3px solid black;
+    border-radius: 16px;
+}
+
+body full section p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+body article p.front {
+    text-align: center;
+}
+img {
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+img.image1 {
+    margin-top: 10px;
+    width: 90%;
+    border: 3px dashed black;
+}
+
+img.image2 {
+    margin-top: 10px;
+    width: 90%;
+    border: 3px solid black;
+}
+
+img.image3 {
+    margin-top: 10px;
+    width: 90%;
+    border: 3px dashed black;
+}
+
+img.image4 {
+    margin-top: 10px;
+    width: 90%;
+    border: 3px solid black;
+}
+
+body article img.large[src="images/nanonauts-ninjas.png"] {
+    background-color: #FFFFFF;
+}
+
+body article section img.small[src="images/daniel.png"] {
+    background-color: #92C7CF;
+}
+
+body article section img.small[src="images/sam.png"] {
+    background-color: #A5DD9B; 
+}
+
+body article section img.small[src="images/holly.png"] {
+    background-color: #ECEE81;
+}
+
+body article section img.small[src="images/dervla.png"] {
+    background-color: #FD8A8A;
+}
+
+body img[src="images/wenny-and-sejjy.png"] {
+    border: 2px solid black;
+    background-color: rgba(204, 215, 253, 0.7);
+}
+
+/* The bits that are specific to a wide viewport (over 56em) */
+@media all and (min-width: 900px) {
+    full {
+        clear: both;
+        display: block;
+        width: 100%;
+    }
+    article {
+        float: left;
+        width: 66%;
+    }
+
+    aside {
+        float: left;
+        padding-left: 24px;
+        width: 34%;
+    }
+
+    footer {
+        clear: both;
+    }
+}
+
+.image-container {
+    display: flex; /* Use flexbox layout */
+}
+
+.image-container p {
+    margin-top: 0px;
+}
+
+.medium {
+    transition: transform 0.3s ease;
+}
+
+.medium.image1:hover,
+.medium.image2:hover,
+.medium.image3:hover,
+.medium.image4:hover {
+    transform: scale(1.1);
+}
